@@ -1,9 +1,9 @@
 # CMIS102-Lab7
-CMIS 102 Hands-On Lab
+## CMIS 102 Hands-On Lab
 This hands-on lab allows you to follow and experiment with the critical steps of developing a program including the program description, analysis, test plan, design, and implementation with C code. The example provided uses sequential, repetition, selection statements and two user-defined function.
-Program Description
+### Program Description
 This program will provide options for a user to calculate the square or cube of a positive Integer input by a user. The program will prompt the user to enter an Integer and then prompt the user if they want to calculate the square of the cube of the number. Based on the inputs of the user, the program will output the square of the cube of the positive integer. The program will then print the Integer and square or cube of the integer based on the user’s original choice. The program will continue to prompt the user for Integers and their calculation choice until the user enters a negative integer. The square and cube calculations should be calculated using a function.
-Analysis
+### Analysis
 I will use sequential, selection, and repetition programming statements and functions for the cube and square calculations.
 I will define three Integer numbers: IntValue, MenuSelect, Results to store the Integer value input by the user, the Menu selection (1 for Square, 2 for Cube) of the user, and the results of the Square or Cube functions.
 The Square function will take one Integer as input and return one Integer as the output. The calculation within the Square function is: Results = IntValue * IntValue
@@ -13,7 +13,7 @@ For example, if 10 was entered as the IntValue. Results = 10*10*10 = 1000
 A repetition loop can be used to loop through iterations until a negative is entered: while(intValue > 0) (
 ... End For
 1
-Test Plan
+### Test Plan
 To verify this program is working properly the input values could be used for testing:
      Test Case
       Input
@@ -27,7 +27,7 @@ To verify this program is working properly the input values could be used for te
      3
       intValue=-1 MenuSelect=N/A
      Program exits
-  Pseudocode
+ ### Pseudocode
 // This program will provide options for a user to calculate the square
 // or cube of a positive Integer input by a user.
 // Start Main program
@@ -66,7 +66,7 @@ End Function
 Function Cube(value) as Integer
     Set Cube = value*value*value
 End Function
-C Code
+### C Code
 The following is the C Code that will compile in execute in the online compilers.
 // C code
 // This program will provide options for a user to calculate the square // or cube of a positive Integer input by a user.
@@ -124,7 +124,7 @@ Setting up the code and the input parameters in ideone.com:
 You can change these values to any valid integer values to match your test cases.
  5
 Results from running the programming at ideone.com:
- Learning Exercises for you to complete
+#### Learning Exercises for you to complete
 1. Demonstrate you successfully followed the steps in this lab by preparing screen captures of you running the lab as specified in the Instructions above.
 2. Using the Square and Cube functions as models, Create an application that includes a function named “Shrink” that would take an Integer and return the Integer divided by 2? (Hint: your returned value should probably be a double type.) Support your experimentation with screen captures of executing the new code.
 3. Prepare a new test table with at least 3 distinct test cases listing input and expected output for the code you created after step 1.
